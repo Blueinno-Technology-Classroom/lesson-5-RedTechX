@@ -13,10 +13,14 @@
     <div class="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2">
       <!-- ! Left Container  -->
       <div class="space-y-2">
+        <input
+          id="input1"
+          type="text"
+          placeholder="Type here"
+          class="input input-bordered w-full" />
         <div class="skeleton h-8"></div>
         <div class="skeleton h-8"></div>
-        <div class="skeleton h-8"></div>
-        <button class="btn">Try Click Me</button>
+        <button id="button-generate" class="btn">Try Click Me</button>
       </div>
 
       <!-- ! Right Container -->
@@ -26,9 +30,10 @@
         </p>
         <img
           src="./imgs/sheldon_meme_template.jpg"
-          alt="sheldon_meme_template"
-        />
+          alt="sheldon_meme_template" />
       </div>
     </div>
+
+    <script src="../src/meme.js"></script>
   </body>
 </html>
